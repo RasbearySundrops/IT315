@@ -1,0 +1,245 @@
+func PopulateEquipmentType() {
+        let et1 = EquipmentType()
+        et1.EquipmentName = "Green Armor"
+        et1.EMat1 = "Black Stone(Armor)"
+        et1.EMat2 = "Concentrated Black Stone(Armor)"
+        et1.EquipmentDescription = "Green Raritiy.\nEnhanced with \(et1.EMat1) until +15 and \(et1.EMat2) until PEN."
+        et1.EnhanceChance = [100.00,100.00,100.00,100.00,100.00,
+                             70.00+Double(Int(sldFailStack.value))*1.40,
+                             51.28+Double(Int(sldFailStack.value))*5.13,
+                             17.24+Double(Int(sldFailStack.value))*1.72,
+                             11.76+Double(Int(sldFailStack.value))*1.18,
+                             7.69+Double(Int(sldFailStack.value))*0.77,
+                             6.25+Double(Int(sldFailStack.value))*0.63,
+                             5.00+Double(Int(sldFailStack.value))*0.50,
+                             4.00+Double(Int(sldFailStack.value))*0.40,
+                             3.75+Double(Int(sldFailStack.value))*0.38,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             11.76+Double(Int(sldFailStack.value))*1.18,
+                             7.69+Double(Int(sldFailStack.value))*0.77,
+                             6.25+Double(Int(sldFailStack.value))*0.63,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             0.30+Double(Int(sldFailStack.value))*0.03]
+        EquipmentTypeArray.insert(et1, at:0)
+        let et2 = EquipmentType()
+        et2.EquipmentName = "Boss Armor"
+        et2.EMat1 = "Black Stone(Armor)"
+        et2.EMat2 = "Concentrated Black Stone(Armor)"
+        et2.EquipmentDescription = "Boss armor yellow rarity. This also coveres blue and white rarity armor.\nEnhanced with \(et2.EMat1) until +15 and \(et2.EMat2) until PEN."
+        et2.EnhanceChance = [100.00,100.00,100.00,100.00,100.00,
+                             70.00+Double(Int(sldFailStack.value))*1.40,
+                             25.64+Double(Int(sldFailStack.value))*2.56,
+                             17.24+Double(Int(sldFailStack.value))*1.72,
+                             11.76+Double(Int(sldFailStack.value))*1.18,
+                             7.69+Double(Int(sldFailStack.value))*0.77,
+                             6.25+Double(Int(sldFailStack.value))*0.63,
+                             5.00+Double(Int(sldFailStack.value))*0.50,
+                             4.00+Double(Int(sldFailStack.value))*0.40,
+                             2.86+Double(Int(sldFailStack.value))*0.29,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             11.76+Double(Int(sldFailStack.value))*1.18,
+                             7.69+Double(Int(sldFailStack.value))*0.77,
+                             6.25+Double(Int(sldFailStack.value))*0.63,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             0.30+Double(Int(sldFailStack.value))*0.03]
+        EquipmentTypeArray.insert(et2, at:1)
+        
+        let et3 = EquipmentType()
+        et3.EquipmentName = "Tuvala Armor"
+        et3.EMat1 = "Time-filled Black Stone"
+        et3.EMat2 = "Refined Magical Black Stone"
+        et3.EquipmentDescription = "Seasonal Equipment (weapon and armor) with high success rates.\nEnhanced with \(et3.EMat1) until +15 and \(et3.EMat2) until PEN."
+        et3.EnhanceChance = [100.00,100.00,100.00,100.00,100.00,100.00,100.00,100.00,100.00,
+                             50.00+Double(Int(sldFailStack.value))*5.00,
+                             30.00+Double(Int(sldFailStack.value))*3.00,
+                             20.00+Double(Int(sldFailStack.value))*2.00,
+                             15.00+Double(Int(sldFailStack.value))*1.50,
+                             10.00+Double(Int(sldFailStack.value))*1.00,
+                             8.00+Double(Int(sldFailStack.value))*0.80,
+                             30.00+Double(Int(sldFailStack.value))*3.00,
+                             20.00+Double(Int(sldFailStack.value))*1.70,
+                             15.00+Double(Int(sldFailStack.value))*1.20,
+                             7.00+Double(Int(sldFailStack.value))*0.80,
+                             5.00+Double(Int(sldFailStack.value))*0.50]
+        EquipmentTypeArray.insert(et3, at:2)
+        
+        let et4 = EquipmentType()
+        et4.EquipmentName = "Green Weapons"
+        et4.EMat1 = "Black Stone(Weapon)"
+        et4.EMat2 = "Concentrated Black Stone(Weapon)"
+        et4.EquipmentDescription = "Green rarity.\nEnhanced with \(et4.EMat1) until +15 and \(et4.EMat2) until PEN."
+        et4.EnhanceChance = [100.00,100.00,100.00,100.00,100.00,100.00,100.00,
+                             70.00+Double(Int(sldFailStack.value))*1.40,
+                             40.82+Double(Int(sldFailStack.value))*4.08,
+                             28.58+Double(Int(sldFailStack.value))*1.43,
+                             20.00+Double(Int(sldFailStack.value))*1.00,
+                             13.34+Double(Int(sldFailStack.value))*0.67,
+                             8.00+Double(Int(sldFailStack.value))*0.40,
+                             7.50+Double(Int(sldFailStack.value))*0.38,
+                             6.00+Double(Int(sldFailStack.value))*0.20,
+                             11.76+Double(Int(sldFailStack.value))*1.18,
+                             7.69+Double(Int(sldFailStack.value))*0.77,
+                             6.25+Double(Int(sldFailStack.value))*0.63,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             0.30+Double(Int(sldFailStack.value))*0.03]
+        EquipmentTypeArray.insert(et4, at:3)
+        
+        let et5 = EquipmentType()
+        et5.EquipmentName = "Boss Weapons"
+        et5.EMat1 = "Black Stone(Weapon)"
+        et5.EMat2 = "Concentrated Black Stone(Weapon)"
+        et5.EquipmentDescription = "Boss weapon yellow rarity. This also coveres blue and white rarity weapons.\nEnhanced with \(et5.EMat1) until +15 and \(et5.EMat2) until PEN."
+        et5.EnhanceChance = [100.00,100.00,100.00,100.00,100.00,100.00,100.00,
+                             70.00+Double(Int(sldFailStack.value))*1.40,
+                             20.41+Double(Int(sldFailStack.value))*2.04,
+                             14.29+Double(Int(sldFailStack.value))*1.43,
+                             10.00+Double(Int(sldFailStack.value))*1.00,
+                             6.67+Double(Int(sldFailStack.value))*0.67,
+                             4.00+Double(Int(sldFailStack.value))*0.40,
+                             2.50+Double(Int(sldFailStack.value))*0.25,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             11.76+Double(Int(sldFailStack.value))*1.18,
+                             7.69+Double(Int(sldFailStack.value))*0.77,
+                             6.25+Double(Int(sldFailStack.value))*0.63,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             0.30+Double(Int(sldFailStack.value))*0.03]
+        EquipmentTypeArray.insert(et5, at:4)
+        
+        let et6 = EquipmentType()
+        et6.EquipmentName = "Blackstar Weapons & Armor"
+        et6.EMat1 = "Concentrated Magical Black Stone"
+        et6.EMat2 = "Pure Magical Black Stone"
+        et6.EquipmentDescription = "End-game red-rarity equipment.\nEnhanced with \(et6.EMat1) until +15 and \(et6.EMat2) until PEN."
+        et6.EnhanceChance = [100.00,100.00,100.00,100.00,100.00,100.00,100.00,
+                             70.00+Double(Int(sldFailStack.value))*1.80,
+                             20.41+Double(Int(sldFailStack.value))*2.04,
+                             14.29+Double(Int(sldFailStack.value))*1.43,
+                             10.00+Double(Int(sldFailStack.value))*1.00,
+                             6.67+Double(Int(sldFailStack.value))*0.67,
+                             4.00+Double(Int(sldFailStack.value))*0.40,
+                             2.50+Double(Int(sldFailStack.value))*0.25,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             13.08+Double(Int(sldFailStack.value))*1.31,
+                             10.63+Double(Int(sldFailStack.value))*1.06,
+                             3.40+Double(Int(sldFailStack.value))*0.34,
+                             0.51+Double(Int(sldFailStack.value))*0.05,
+                             0.20+Double(Int(sldFailStack.value))*0.02]
+        EquipmentTypeArray.insert(et6, at:5)
+        let et7 = EquipmentType()
+        et7.EquipmentName = "Green Accessories"
+        et7.EMat1 = "identical unenhanced accessories"
+        et7.EMat2 = "N/A"
+        et7.EquipmentDescription = "Green rarity. Starts at PRI.\nEnhanced with \(et7.EMat1) until PEN."
+        et7.EnhanceChance = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                             30.00+Double(Int(sldFailStack.value))*3.00,
+                             10.00+Double(Int(sldFailStack.value))*1.00,
+                             7.50+Double(Int(sldFailStack.value))*0.75,
+                             2.50+Double(Int(sldFailStack.value))*0.25,
+                             0.50+Double(Int(sldFailStack.value))*0.05]
+        EquipmentTypeArray.insert(et7, at:6)
+        
+        let et8 = EquipmentType()
+        et8.EquipmentName = "Blue Bound Accessories"
+        et8.EMat1 = "identical unenhanced accessories"
+        et8.EMat2 = "N/A"
+        et8.EquipmentDescription = "Family bound blue rarity accessories from main story quests.\nStarts at PRI.\nEnhanced with \(et8.EMat1) until TET."
+        et8.EnhanceChance = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                             70.00+Double(Int(sldFailStack.value))*1.40,
+                             28.57+Double(Int(sldFailStack.value))*2.86,
+                             13.33+Double(Int(sldFailStack.value))*1.33,
+                             14.66+Double(Int(sldFailStack.value))*0.20,
+                             6.00+Double(Int(sldFailStack.value))*0.60,
+                             0]
+        EquipmentTypeArray.insert(et8, at:7)
+        
+        let et9 = EquipmentType()
+        et9.EquipmentName = "Boss Accessories"
+        et9.EMat1 = "identical unenhanced accessories"
+        et9.EMat2 = "N/A"
+        et9.EquipmentDescription = "Accessories of yellow and blue rarity.\nEnhanced with \(et9.EMat1) until PEN."
+        et9.EnhanceChance = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                             25.00+Double(Int(sldFailStack.value))*2.50,
+                             10.00+Double(Int(sldFailStack.value))*1.00,
+                             7.50+Double(Int(sldFailStack.value))*0.75,
+                             2.50+Double(Int(sldFailStack.value))*0.25,
+                             0.50+Double(Int(sldFailStack.value))*0.05]
+        EquipmentTypeArray.insert(et9, at:8)
+
+        let et10 = EquipmentType()
+        et10.EquipmentName = "Manos Clothing"
+        et10.EMat1 = "Black Gem"
+        et10.EMat2 = "Concentrated Black Gem"
+        et10.EquipmentDescription = "The best lifeskilling clothing. Orange rarity.\nDoes not consume failstacks for enhancement!\nEnhanced with \(et10.EMat1) until +15 and \(et10.EMat2) until PEN."
+        et10.EnhanceChance = [100.00, 100.00, 100.00, 100.00, 100.00, 90.00, 80.00, 70.00, 60.00, 50.00, 40.00, 30.00, 20.00, 15.00, 10.00, 30.00, 25.00, 20.00, 15.00, 6.00]
+        EquipmentTypeArray.insert(et10, at:9)
+        
+        let et11 = EquipmentType()
+        et11.EquipmentName = "Manos Tools"
+        et11.EMat1 = "Black Stone(Weapon)"
+        et11.EMat2 = "Concentrated Black Stone(Weapon)"
+        et11.EquipmentDescription = "The best lifeskilling tools. Orange rarity.\nEnhanced with \(et11.EMat1) until +15 and \(et11.EMat2) until PEN."
+        et11.EnhanceChance = [100.00,100.00,100.00,100.00,100.00,100.00,100.00,
+                             70.00+Double(Int(sldFailStack.value))*1.40,
+                             20.41+Double(Int(sldFailStack.value))*2.04,
+                             14.29+Double(Int(sldFailStack.value))*1.43,
+                             10.00+Double(Int(sldFailStack.value))*1.00,
+                             6.67+Double(Int(sldFailStack.value))*0.67,
+                             4.00+Double(Int(sldFailStack.value))*0.40,
+                             2.50+Double(Int(sldFailStack.value))*0.25,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             11.76+Double(Int(sldFailStack.value))*1.18,
+                             7.69+Double(Int(sldFailStack.value))*0.77,
+                             6.25+Double(Int(sldFailStack.value))*0.63,
+                             2.00+Double(Int(sldFailStack.value))*0.20,
+                             0.30+Double(Int(sldFailStack.value))*0.03]
+        EquipmentTypeArray.insert(et11, at:10)
+        
+        let et12 = EquipmentType()
+        et12.EquipmentName = "Manos Accessories"
+        et12.EMat1 = "Black Gem"
+        et12.EMat2 = "Concentrated Black Gem"
+        et12.EquipmentDescription = "The best lifeskilling accessories. Orange rarity.\nStarts at PRI.\nDoes not consume failstacks for enhancement!\nEnhanced with \(et12.EMat1) until +15 and \(et12.EMat2) until PEN."
+        et12.EnhanceChance = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75,45,30,15,5]
+        EquipmentTypeArray.insert(et12, at:11)
+        
+        let et13 = EquipmentType()
+        et13.EquipmentName = "Geranoa Clothing"
+        et13.EMat1 = "Black Gems"
+        et13.EMat2 = "Concentrated Black Gems"
+        et13.EquipmentDescription = "Geranoa Clothing for lifeskilling. Blue rarity. Does not consume failstacks for enhancement!\nEnhanced with \(et13.EMat1) until +15 and \(et13.EMat2) until PEN."
+        et13.EnhanceChance = [100.00,100.00,100.00,100.00,100.00,90,80,70,60,50,45,40,35,30,20,35,30,25,20,10]
+        EquipmentTypeArray.insert(et13, at:12)
+        
+        let et14 = EquipmentType()
+        et14.EquipmentName = "Silver Embroidered Clothing"
+        et14.EMat1 = "identical unenhanced clothing"
+        et14.EMat2 = "N/A"
+        et14.EquipmentDescription = "Old lifeskill clothing of blue rarity. Comparable with Manos clothing, and superior in certain cases.\nStarts at PRI.\nEnhanced with \(et14.EMat1) until PEN."
+        et14.EnhanceChance = [30.00+Double(Int(sldFailStack.value))*3.00,
+                              10.00+Double(Int(sldFailStack.value))*1.00,
+                              7.50+Double(Int(sldFailStack.value))*0.75,
+                              2.50+Double(Int(sldFailStack.value))*0.25,
+                              0.50+Double(Int(sldFailStack.value))*0.05,
+                              0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+        EquipmentTypeArray.insert(et14, at:13)
+        
+        let et15 = EquipmentType()
+        et15.EquipmentName = "Ship Parts"
+        et15.EMat1 = "Fiery Black Stone"
+        et15.EMat2 = "Frosted Black Stone"
+        et15.EquipmentDescription = "Crafted equipment for your ship. Blue rarity.\nEnhanced with \(et11.EMat1) until +5 and \(et11.EMat2) until +10."
+        et15.EnhanceChance = [30.00+Double(Int(sldFailStack.value))*3.00,
+                              25.00+Double(Int(sldFailStack.value))*2.50,
+                              20.00+Double(Int(sldFailStack.value))*2.00,
+                              15.00+Double(Int(sldFailStack.value))*1.50,
+                              12.00+Double(Int(sldFailStack.value))*1.20,
+                              10.00+Double(Int(sldFailStack.value))*0.40,
+                              5.00+Double(Int(sldFailStack.value))*0.50,
+                              3.00+Double(Int(sldFailStack.value))*0.30,
+                              2.00+Double(Int(sldFailStack.value))*0.20,
+                              1.00+Double(Int(sldFailStack.value))*0.10,
+                              0,0,0,0,0,0,0,0,0,0]
+        EquipmentTypeArray.insert(et15, at:14)
+        
+        
+    }
